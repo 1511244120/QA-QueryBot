@@ -1,0 +1,85 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "version control",
+      "patterns": ["What is version control?"],
+      "responses": ["Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. It allows multiple developers to collaborate and track changes efficiently."]
+    },
+    {
+      "tag": "Agile methodology",
+      "patterns": ["What is the Agile methodology?"],
+      "responses": ["Agile is an iterative approach to software development that focuses on collaboration, customer feedback, and small, rapid releases. It promotes adaptive planning and flexible responses to change."]
+    },
+    {
+      "tag": "frontend and backend",
+      "patterns": ["What is the difference between frontend and backend development?"],
+      "responses": ["Frontend development involves creating the user interface and everything the user interacts with, while backend development involves server-side operations, database management, and ensuring the application functions behind the scenes."]
+    },
+    {
+      "tag": "API",
+      "patterns": ["What is an API?"],
+      "responses": ["An API (Application Programming Interface) is a set of protocols, tools, and definitions that allow different software applications to communicate with each other. It specifies how software components should interact."]
+    },
+    {
+      "tag": "testing",
+      "patterns": ["What is the purpose of testing in software development?"],
+      "responses": ["Testing ensures that software meets requirements, functions correctly, and is free of bugs or errors. It encompasses various techniques and processes to validate and verify that the software works as expected."]
+    },
+    {
+      "tag": "programming paradigm",
+      "patterns": ["What is a programming paradigm?"],
+      "responses": ["A programming paradigm is a fundamental style or approach to programming. Common paradigms include procedural, object-oriented, and functional programming, each with its own principles and practices."]
+    },
+    {
+      "tag": "design pattern",
+      "patterns": ["What is a design pattern?"],
+      "responses": ["Design patterns are reusable solutions to common problems in software design. They provide templates for solving issues that occur frequently in software development, promoting efficiency and maintainability."]
+    },
+    {
+      "tag": "synchronous and asynchronous",
+      "patterns": ["What is the difference between synchronous and asynchronous programming?"],
+      "responses": ["Synchronous programming executes tasks sequentially, while asynchronous programming allows tasks to run independently, enabling non-blocking operations and better responsiveness in applications."]
+    },
+    {
+      "tag": "CI/CD",
+      "patterns": ["What is continuous integration/continuous deployment (CI/CD)?"],
+      "responses": ["CI/CD is a practice in software development where code changes are regularly merged into a shared repository (CI), and automated deployment processes are used to release these changes into production environments (CD)."]
+    },
+    {
+      "tag": "software framework",
+      "patterns": ["What is the purpose of a software framework?"],
+      "responses": ["A software framework provides a structure and set of tools that developers can use to build applications more efficiently. It includes pre-written code and libraries that simplify common tasks and promote best practices."]
+    }
+  ]
+}
