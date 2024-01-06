@@ -29,5 +29,6 @@ $ (venv) python chat.py
 ```
 
 Start the project
+```
 $ (venv) python app.py
 ```
